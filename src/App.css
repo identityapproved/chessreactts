@@ -31,11 +31,11 @@
 }
 
 .black{
-  background-color: aliceblue;
+  background-color: rgb(230, 230, 230);
 }
 
 .white {
-  background-color: rgb(0, 2, 3);
+  background-color: rgb(32, 32, 32);
 }
 
 .selected {
@@ -51,4 +51,26 @@
 
 .highlight {
   background-color: yellow;
+}
+
+.turn {
+  margin-left: 23px;
+  margin-bottom: 6px;
+}
+
+.lost {
+  /* height: calc(50vh - 60px); */
+  margin-left: 23px;
+}
+
+.figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  position: absolute;
+  top: 2em;
+  left: 2em;
 }
